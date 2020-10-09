@@ -1,0 +1,372 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GooglePlace"
+provides-nominal:
+- "21PekoNearbyRestaurants11GooglePlaceV"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV8ResponseV"
+provides-member:
+- ["21PekoNearbyRestaurants11GooglePlaceV", ""]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", ""]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", ""]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "Response"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "CLLocationCoordinate2D"
+- "CLLocationDegrees"
+- "Codable"
+- "CodingKey"
+- "Coordinate"
+- !private "FloatLiteralType"
+- "Gemoetry"
+- "GooglePlace"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "geometry"
+- !private "~="
+depends-member:
+- !private ["So22CLLocationCoordinate2DV", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "=="]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "Default_RawValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "RawValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", ""]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "_Default_RawValue"]
+- !private ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "_findStringSwitchCase"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "_rawHashValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "address"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "debugDescription"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "description"]
+- !private ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "findStringSwitchCase"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "geometry"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "hash"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "hashValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "init"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "intValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "name"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "rawValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "stringValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO", "types"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["Se", "CLLocationCoordinate2D"]
+- ["Se", "Codable"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "address"]
+- ["Se", "encode"]
+- !private ["Se", "errorMessage"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "geometry"]
+- ["Se", "init"]
+- !private ["Se", "lat"]
+- !private ["Se", "lng"]
+- !private ["Se", "location"]
+- !private ["Se", "name"]
+- !private ["Se", "results"]
+- !private ["Se", "types"]
+- !private ["s7DecoderP", "container"]
+- !private ["SE", "CLLocationCoordinate2D"]
+- ["SE", "Codable"]
+- ["SE", "CodingKey"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "address"]
+- ["SE", "encode"]
+- !private ["SE", "errorMessage"]
+- !private ["SE", "findStringSwitchCase"]
+- !private ["SE", "geometry"]
+- ["SE", "init"]
+- !private ["SE", "lat"]
+- !private ["SE", "lng"]
+- !private ["SE", "location"]
+- !private ["SE", "name"]
+- !private ["SE", "results"]
+- !private ["SE", "types"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "CLLocationCoordinate2D"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "CLLocationDegrees"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "Codable"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "CodingKey"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "CodingKeys"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "Coordinate"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "Gemoetry"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "GooglePlace"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "Response"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "String"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", ""]
+- !private ["21PekoNearbyRestaurants11GooglePlaceV", "_findStringSwitchCase"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "address"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "coordinate"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "encode"]
+- !private ["21PekoNearbyRestaurants11GooglePlaceV", "findStringSwitchCase"]
+- !private ["21PekoNearbyRestaurants11GooglePlaceV", "geometry"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "init"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "name"]
+- ["21PekoNearbyRestaurants11GooglePlaceV", "types"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", "CodingKeys"]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", "GooglePlace"]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", "String"]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", ""]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", "encode"]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", "errorMessage"]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", "init"]
+- ["21PekoNearbyRestaurants11GooglePlaceV8ResponseV", "results"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "So22CLLocationCoordinate2DV"
+- "s9CodingKeyP"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "21PekoNearbyRestaurants11GooglePlaceV10CodingKeysO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "21PekoNearbyRestaurants11GooglePlaceV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "SY"
+- "21PekoNearbyRestaurants11GooglePlaceV8ResponseV"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlusCode.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceFieldMask.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteSessionToken.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesDeprecationUtils.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLocationOptions.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSOpeningHours.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2656d9e81a5b6debf625b3f0ee8b9f6d"

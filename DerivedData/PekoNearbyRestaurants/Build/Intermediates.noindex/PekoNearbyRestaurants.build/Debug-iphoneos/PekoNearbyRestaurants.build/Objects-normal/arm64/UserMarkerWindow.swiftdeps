@@ -1,0 +1,456 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserMarkerWindow"
+provides-nominal:
+- "21PekoNearbyRestaurants16UserMarkerWindowC"
+provides-member:
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", ""]
+provides-dynamic-lookup:
+- "birthDateLbl"
+- "datePicker"
+- "editBirthDateButton"
+- "editNameButton"
+- "editSurnameButton"
+- "nameLbl"
+- "surnameLbl"
+depends-top-level:
+- "UIButton"
+- "UIDatePicker"
+- "UILabel"
+- "UIView"
+- "UserMarkerWindow"
+depends-member:
+- ["SK", ""]
+- ["So15CALayerDelegateP", "UIButton"]
+- ["So15CALayerDelegateP", "UIDatePicker"]
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "birthDateLbl"]
+- ["So15CALayerDelegateP", "datePicker"]
+- ["So15CALayerDelegateP", "editBirthDateButton"]
+- ["So15CALayerDelegateP", "editNameButton"]
+- ["So15CALayerDelegateP", "editSurnameButton"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "nameLbl"]
+- ["So15CALayerDelegateP", "surnameLbl"]
+- ["s7CVarArgP", "UIDatePicker"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["Sl", ""]
+- ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", "UIDatePicker"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "UIDatePicker"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["SQ", "UIDatePicker"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", "UIDatePicker"]
+- ["SH", ""]
+- ["SH", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", "UIDatePicker"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "birthDateLbl"]
+- ["So8NSCodingP", "datePicker"]
+- ["So8NSCodingP", "editBirthDateButton"]
+- ["So8NSCodingP", "editNameButton"]
+- ["So8NSCodingP", "editSurnameButton"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "nameLbl"]
+- ["So8NSCodingP", "surnameLbl"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIDatePicker"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "birthDateLbl"]
+- ["So8NSObjectC", "datePicker"]
+- ["So8NSObjectC", "editBirthDateButton"]
+- ["So8NSObjectC", "editNameButton"]
+- ["So8NSObjectC", "editSurnameButton"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "nameLbl"]
+- ["So8NSObjectC", "surnameLbl"]
+- ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", "UIDatePicker"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "birthDateLbl"]
+- ["So8NSObjectP", "datePicker"]
+- ["So8NSObjectP", "editBirthDateButton"]
+- ["So8NSObjectP", "editNameButton"]
+- ["So8NSObjectP", "editSurnameButton"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "nameLbl"]
+- ["So8NSObjectP", "surnameLbl"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So29UIAccessibilityIdentificationP", "UIButton"]
+- ["So29UIAccessibilityIdentificationP", "UIDatePicker"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "birthDateLbl"]
+- ["So29UIAccessibilityIdentificationP", "datePicker"]
+- ["So29UIAccessibilityIdentificationP", "editBirthDateButton"]
+- ["So29UIAccessibilityIdentificationP", "editNameButton"]
+- ["So29UIAccessibilityIdentificationP", "editSurnameButton"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "nameLbl"]
+- ["So29UIAccessibilityIdentificationP", "surnameLbl"]
+- ["So12UIAppearanceP", "UIButton"]
+- ["So12UIAppearanceP", "UIDatePicker"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "birthDateLbl"]
+- ["So12UIAppearanceP", "datePicker"]
+- ["So12UIAppearanceP", "editBirthDateButton"]
+- ["So12UIAppearanceP", "editNameButton"]
+- ["So12UIAppearanceP", "editSurnameButton"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "nameLbl"]
+- ["So12UIAppearanceP", "surnameLbl"]
+- ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", "UIDatePicker"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "birthDateLbl"]
+- ["So21UIAppearanceContainerP", "datePicker"]
+- ["So21UIAppearanceContainerP", "editBirthDateButton"]
+- ["So21UIAppearanceContainerP", "editNameButton"]
+- ["So21UIAppearanceContainerP", "editSurnameButton"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "nameLbl"]
+- ["So21UIAppearanceContainerP", "surnameLbl"]
+- ["So32UIContextMenuInteractionDelegateP", "init"]
+- ["So9UIControlC", ""]
+- ["So9UIControlC", "init"]
+- ["So17UICoordinateSpaceP", "UIButton"]
+- ["So17UICoordinateSpaceP", "UIDatePicker"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "birthDateLbl"]
+- ["So17UICoordinateSpaceP", "datePicker"]
+- ["So17UICoordinateSpaceP", "editBirthDateButton"]
+- ["So17UICoordinateSpaceP", "editNameButton"]
+- ["So17UICoordinateSpaceP", "editSurnameButton"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "nameLbl"]
+- ["So17UICoordinateSpaceP", "surnameLbl"]
+- ["So12UIDatePickerC", "init"]
+- ["So13UIDynamicItemP", "UIButton"]
+- ["So13UIDynamicItemP", "UIDatePicker"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "birthDateLbl"]
+- ["So13UIDynamicItemP", "datePicker"]
+- ["So13UIDynamicItemP", "editBirthDateButton"]
+- ["So13UIDynamicItemP", "editNameButton"]
+- ["So13UIDynamicItemP", "editSurnameButton"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "nameLbl"]
+- ["So13UIDynamicItemP", "surnameLbl"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", "UIDatePicker"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "birthDateLbl"]
+- ["So18UIFocusEnvironmentP", "datePicker"]
+- ["So18UIFocusEnvironmentP", "editBirthDateButton"]
+- ["So18UIFocusEnvironmentP", "editNameButton"]
+- ["So18UIFocusEnvironmentP", "editSurnameButton"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "nameLbl"]
+- ["So18UIFocusEnvironmentP", "surnameLbl"]
+- ["So11UIFocusItemP", "UIButton"]
+- ["So11UIFocusItemP", "UIDatePicker"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "birthDateLbl"]
+- ["So11UIFocusItemP", "datePicker"]
+- ["So11UIFocusItemP", "editBirthDateButton"]
+- ["So11UIFocusItemP", "editNameButton"]
+- ["So11UIFocusItemP", "editSurnameButton"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "nameLbl"]
+- ["So11UIFocusItemP", "surnameLbl"]
+- ["So20UIFocusItemContainerP", "UIButton"]
+- ["So20UIFocusItemContainerP", "UIDatePicker"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "birthDateLbl"]
+- ["So20UIFocusItemContainerP", "datePicker"]
+- ["So20UIFocusItemContainerP", "editBirthDateButton"]
+- ["So20UIFocusItemContainerP", "editNameButton"]
+- ["So20UIFocusItemContainerP", "editSurnameButton"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "nameLbl"]
+- ["So20UIFocusItemContainerP", "surnameLbl"]
+- ["So24UILargeContentViewerItemP", "UIButton"]
+- ["So24UILargeContentViewerItemP", "UIDatePicker"]
+- ["So24UILargeContentViewerItemP", "UILabel"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "birthDateLbl"]
+- ["So24UILargeContentViewerItemP", "datePicker"]
+- ["So24UILargeContentViewerItemP", "editBirthDateButton"]
+- ["So24UILargeContentViewerItemP", "editNameButton"]
+- ["So24UILargeContentViewerItemP", "editSurnameButton"]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So24UILargeContentViewerItemP", "nameLbl"]
+- ["So24UILargeContentViewerItemP", "surnameLbl"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", "UIDatePicker"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "birthDateLbl"]
+- ["So30UIPasteConfigurationSupportingP", "datePicker"]
+- ["So30UIPasteConfigurationSupportingP", "editBirthDateButton"]
+- ["So30UIPasteConfigurationSupportingP", "editNameButton"]
+- ["So30UIPasteConfigurationSupportingP", "editSurnameButton"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "nameLbl"]
+- ["So30UIPasteConfigurationSupportingP", "surnameLbl"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIDatePicker"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "birthDateLbl"]
+- ["So11UIResponderC", "datePicker"]
+- ["So11UIResponderC", "editBirthDateButton"]
+- ["So11UIResponderC", "editNameButton"]
+- ["So11UIResponderC", "editSurnameButton"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "nameLbl"]
+- ["So11UIResponderC", "surnameLbl"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", "UIDatePicker"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "birthDateLbl"]
+- ["So30UIResponderStandardEditActionsP", "datePicker"]
+- ["So30UIResponderStandardEditActionsP", "editBirthDateButton"]
+- ["So30UIResponderStandardEditActionsP", "editNameButton"]
+- ["So30UIResponderStandardEditActionsP", "editSurnameButton"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "nameLbl"]
+- ["So30UIResponderStandardEditActionsP", "surnameLbl"]
+- ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", "UIDatePicker"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "birthDateLbl"]
+- ["So18UITraitEnvironmentP", "datePicker"]
+- ["So18UITraitEnvironmentP", "editBirthDateButton"]
+- ["So18UITraitEnvironmentP", "editNameButton"]
+- ["So18UITraitEnvironmentP", "editSurnameButton"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "nameLbl"]
+- ["So18UITraitEnvironmentP", "surnameLbl"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", "UIDatePicker"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "birthDateLbl"]
+- ["So23UIUserActivityRestoringP", "datePicker"]
+- ["So23UIUserActivityRestoringP", "editBirthDateButton"]
+- ["So23UIUserActivityRestoringP", "editNameButton"]
+- ["So23UIUserActivityRestoringP", "editSurnameButton"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "nameLbl"]
+- ["So23UIUserActivityRestoringP", "surnameLbl"]
+- ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "UIDatePicker"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "birthDateLbl"]
+- ["So6UIViewC", "datePicker"]
+- ["So6UIViewC", "editBirthDateButton"]
+- ["So6UIViewC", "editNameButton"]
+- ["So6UIViewC", "editSurnameButton"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "nameLbl"]
+- ["So6UIViewC", "surnameLbl"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "UIButton"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "UIDatePicker"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "UILabel"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", ""]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "birthDateLbl"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "datePicker"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "deinit"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "editBirthDateButton"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "editNameButton"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "editSurnameButton"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "init"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "nameLbl"]
+- ["21PekoNearbyRestaurants16UserMarkerWindowC", "surnameLbl"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIDatePicker"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIDatePicker"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "UIDatePicker"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+depends-nominal:
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So12UIDatePickerC"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "21PekoNearbyRestaurants16UserMarkerWindowC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlusCode.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStrokeStyle.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceFieldMask.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSStyleSpan.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteSessionToken.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygonLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlayLayer.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesDeprecationUtils.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLocationOptions.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSOpeningHours.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/macbook/Development/PekoNearbyRestaurants/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "95c9bc41e4a37b1cb4afca870717cd94"
