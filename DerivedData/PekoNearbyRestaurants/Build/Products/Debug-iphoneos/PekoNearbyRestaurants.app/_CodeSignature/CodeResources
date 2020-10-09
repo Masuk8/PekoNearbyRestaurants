@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		jFmkQG5y4QoaLw9+5F0LyNZwRLM=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		3pk3p6V6nBNp6wggYN6bD6Ac0yw=
@@ -18,7 +22,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		H4j2lTLvBLAtfsGRlUJcQ/C30YE=
+		326UVSDsIDtBWQoXHvcFIsTdUjI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,7 +30,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		1bBwRV4ysXANA8fFWqNvhtzLpDE=
+		JwGdTOrKfwu5tOijuMvv34g/gnA=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
@@ -1324,11 +1328,11 @@
 		</data>
 		<key>RestaurantMarkerWindow.nib</key>
 		<data>
-		6F5qhiq/HjxLCq5I+GgcQHUzMW4=
+		Hu2pMgDBQw2BXbDp0I18JOBNRp8=
 		</data>
 		<key>UserMarkerWindow.nib</key>
 		<data>
-		OSQU6Gy1JiLVxUnDTPoBotm5WfE=
+		dxwo3K72oSe5tbRr3roiEGHCtUA=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -1337,6 +1341,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V03WnejyGLnPxcLPqvwMaZ/qpVBEWfAfMClxD4OrKyo=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -1362,7 +1373,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6bDRw7RHDpTtxMEK4qraFA3wz+TnZgQl4Lb+8rg5e3w=
+			i7fnn99ZFs6XYzHFRkwo67syn1hsx9SYFV7IVJsfclE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -1376,7 +1387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			60obIRIiYfifUPfzpbn46sme8LA9+a/Bna01jzflIwA=
+			uCr7rfQbxgahBFEVWo8pf95dOWsQ3sNeazMjb1q54Ic=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
@@ -2972,14 +2983,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E1OEoiVVlB0aKh/EnbaQ0j8rQ1DfErOtopBEQTMPtwQ=
+			4/8rB5+Sb31yZ47npy8nEVAmQAfGo3JHdzx7hZ14VWc=
 			</data>
 		</dict>
 		<key>UserMarkerWindow.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ynGVx7zAt/s3aSV8PeEyeKdzsfFhlUJEwKXcp/OeFIQ=
+			v0G9O+F9+NKBrL/jLM97+53H6k6C/jeMdfs1F4Hbps0=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

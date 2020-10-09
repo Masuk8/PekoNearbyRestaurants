@@ -11,4 +11,5 @@ class RestaurantMarkerWindow: UIView {
   @IBOutlet weak var restaurantName: UILabel!
   @IBOutlet weak var homePageButton: UIButton!
   
+  
 }

@@ -10,24 +10,16 @@ import UIKit
 import GoogleMaps
 
 class UserMarker: GMSMarker {
-  let place: GooglePlace
+  //let place: GooglePlace
   
-  init(place: GooglePlace, availableTypes: [String]) {
-    self.place = place
+  init(place: GooglePlace) {
+    //self.place = place
     super.init()
     
     position = place.coordinate
     groundAnchor = CGPoint(x: 0.5, y: 1)
     appearAnimation = .pop
     
-    var foundType = "restaurant"
-    let possibleTypes = availableTypes.count > 0 ? availableTypes : ["bakery", "bar", "cafe", "grocery_or_supermarket", "restaurant"]
-    for type in place.types {
-      if possibleTypes.contains(type) {
-        foundType = type
-        break
-      }
-    }
-    icon = UIImage(named: foundType+"_pin")
+    icon = UIImage(named: "Icon-50")
   }
 }

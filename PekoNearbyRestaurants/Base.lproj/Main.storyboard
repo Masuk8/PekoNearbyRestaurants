@@ -19,63 +19,67 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W7T-Hv-rNs" userLabel="Map" customClass="GMSMapView">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAb-a5-kua" userLabel="Zoom Out">
-                                        <rect key="frame" x="30" y="758" width="40" height="45"/>
-                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="aa9-xj-btO"/>
-                                            <constraint firstAttribute="height" constant="45" id="b8m-0C-1OS"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="bbF-yo-sPB"/>
-                                            <constraint firstAttribute="width" constant="40" id="to2-TC-fBe"/>
-                                        </constraints>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal" image="minus.magnifyingglass" catalog="system"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6v-5w-ZTH" userLabel="Zoom in">
-                                        <rect key="frame" x="344" y="758" width="40" height="45"/>
-                                        <color key="backgroundColor" name="AccentColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="40" id="9Xg-GE-sH1"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="BUT-qX-R0j"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="MIS-jZ-rSs"/>
-                                            <constraint firstAttribute="height" constant="45" id="lZE-Sn-GxR"/>
-                                        </constraints>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal" image="plus.magnifyingglass" catalog="system"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="TAb-a5-kua" firstAttribute="leading" secondItem="W7T-Hv-rNs" secondAttribute="leading" constant="30" id="7fH-T4-1m3"/>
-                                    <constraint firstAttribute="bottom" secondItem="TAb-a5-kua" secondAttribute="bottom" constant="15" id="TMk-Cg-Loj"/>
-                                    <constraint firstAttribute="bottom" secondItem="H6v-5w-ZTH" secondAttribute="bottom" constant="15" id="dGI-U4-B0W"/>
-                                    <constraint firstAttribute="trailing" secondItem="H6v-5w-ZTH" secondAttribute="trailing" constant="30" id="zxS-9K-eE3"/>
-                                </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6v-5w-ZTH" userLabel="Zoom in">
+                                <rect key="frame" x="344" y="727" width="40" height="45"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="9Xg-GE-sH1"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="BUT-qX-R0j"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="MIS-jZ-rSs"/>
+                                    <constraint firstAttribute="height" constant="45" id="lZE-Sn-GxR"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="plus.magnifyingglass" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="zoomInActionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ETx-F1-nKv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAb-a5-kua" userLabel="Zoom Out">
+                                <rect key="frame" x="344" y="657" width="40" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="aa9-xj-btO"/>
+                                    <constraint firstAttribute="height" constant="45" id="b8m-0C-1OS"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="bbF-yo-sPB"/>
+                                    <constraint firstAttribute="width" constant="40" id="to2-TC-fBe"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="minus.magnifyingglass" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="zoomOutActionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1EL-pb-lBR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W7T-Hv-rNs" secondAttribute="trailing" id="6qd-Sy-4CC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H6v-5w-ZTH" secondAttribute="trailing" constant="30" id="Atm-gu-66j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TAb-a5-kua" secondAttribute="trailing" constant="30" id="MCD-Mo-UYE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="H6v-5w-ZTH" secondAttribute="bottom" constant="90" id="dqo-qf-eux"/>
                             <constraint firstItem="W7T-Hv-rNs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="r1D-FN-uJB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="W7T-Hv-rNs" secondAttribute="bottom" id="sTq-Dz-inw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TAb-a5-kua" secondAttribute="bottom" constant="160" id="t7H-vE-GM2"/>
                             <constraint firstItem="W7T-Hv-rNs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ywl-yh-ume"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="MapView" destination="W7T-Hv-rNs" id="2yv-yI-sCi"/>
                         <outlet property="mapView" destination="W7T-Hv-rNs" id="Xhf-Gc-LZB"/>
+                        <outlet property="zoomInButton" destination="H6v-5w-ZTH" id="56g-aM-iZy"/>
+                        <outlet property="zoomOutButton" destination="TAb-a5-kua" id="dBJ-bE-HSW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

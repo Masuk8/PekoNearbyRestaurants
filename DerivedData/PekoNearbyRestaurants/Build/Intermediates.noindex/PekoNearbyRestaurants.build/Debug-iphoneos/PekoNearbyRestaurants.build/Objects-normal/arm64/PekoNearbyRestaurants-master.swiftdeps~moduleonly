@@ -1,14 +1,14 @@
 version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
 options: "6281787a9e997f1c644c8b282f05ead3"
-build_time: [1602256291, 609091000]
+build_time: [1602267788, 583375000]
 inputs:
-  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/MapViewController.swift": [1602255504, 852145253]
-  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/Views/RestaurantMarkerWindow.swift": [1602181768, 627281608]
-  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/AppDelegate.swift": [1602252479, 799126401]
+  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/MapViewController.swift": [1602267788, 413287071]
+  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/Views/RestaurantMarkerWindow.swift": [1602259633, 171498246]
+  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/AppDelegate.swift": [1602256715, 502380647]
   "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/GooglePlace.swift": [1602179264, 985076]
   "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/GoogleData.swift": [1602256201, 455992569]
   "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/Extensions.swift": [1602182382, 251661651]
-  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/UserMarker.swift": [1602179743, 467596724]
+  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/UserMarker.swift": [1602262805, 560409515]
   "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/SceneDelegate.swift": [1602169364, 768270699]
-  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/RestaurantMarker.swift": [1602179571, 889588085]
+  "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/RestaurantMarker.swift": [1602262228, 834901550]
   "/Users/macbook/Development/PekoNearbyRestaurants/PekoNearbyRestaurants/Views/UserMarkerWindow.swift": [1602182137, 398642293]

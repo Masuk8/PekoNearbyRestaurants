@@ -7,7 +7,6 @@ target 'PekoNearbyRestaurants' do
 
   # Pods for PekoNearbyRestaurants
 
-  pod 'GooglePlaces'
   pod 'GoogleMaps'
 
 end

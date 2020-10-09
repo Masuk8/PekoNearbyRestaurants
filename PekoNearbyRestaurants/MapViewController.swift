@@ -9,8 +9,13 @@ import GoogleMaps
 
 class MapViewController: UIViewController {
     
+  @IBOutlet weak var zoomOutButton: UIButton!
+  @IBOutlet weak var zoomInButton: UIButton!
+  
+
 
   let googleData = GoogleData()
+  var zoom: Float = 15
 
   @IBOutlet weak var mapView: GMSMapView!
   
@@ -19,11 +24,8 @@ class MapViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+
     locationManager.delegate = self
-    
-    
-    
     mapView.isMyLocationEnabled = true
     mapView.settings.myLocationButton = true
     
@@ -37,6 +39,7 @@ class MapViewController: UIViewController {
     }
     
     mapView.delegate = self
+
     
     guard let lat = locationManager.location?.coordinate.latitude else {return}
     guard let lon = locationManager.location?.coordinate.longitude else {return}
@@ -45,51 +48,27 @@ class MapViewController: UIViewController {
     
   }
   
-  func showCurrentLocationOnMap() {
-    let camera = GMSCameraPosition.camera(withLatitude: (locationManager.location?.coordinate.latitude)!, longitude: (locationManager.location?.coordinate.latitude)!, zoom: 140)
-    
-    let marker = GMSMarker()
-    marker.position = camera.target
-    marker.snippet = "Current location"
-    marker.appearAnimation = GMSMarkerAnimation.pop
-    marker.map = mapView
-    mapView.layoutIfNeeded()
+  @IBAction func zoomInActionButton(_ sender: Any) {
+    zoom = zoom + 1
+    self.mapView.animate(toZoom: zoom)
+  }
+  @IBAction func zoomOutActionButton(_ sender: Any) {
+    zoom = zoom - 1
+    self.mapView.animate(toZoom: zoom)
   }
   
-  
-  
-  func reverseGeocode(coordinate: CLLocationCoordinate2D) {
-    let geocoder = GMSGeocoder()
+  func addUserMarker() {
     
-    geocoder.reverseGeocodeCoordinate(coordinate) { response, error in
-      /*self.addressLabel.unlock()
-      
-      guard
-        let address = response?.firstResult(),
-        let lines = address.lines
-      else {
-        return
-      }
-      
-      self.addressLabel.text = lines.joined(separator: "\n")
-      
-      let labelHeight = self.addressLabel.intrinsicContentSize.height
-      let topInset = self.view.safeAreaInsets.top
-      self.mapView.padding = UIEdgeInsets(
-        top: topInset,
-        left: 0,
-        bottom: labelHeight,
-        right: 0)
-      
-      UIView.animate(withDuration: 0.25) {
-        self.pinImageVerticalConstraint.constant = (labelHeight - topInset) * 0.5
-        self.view.layoutIfNeeded()
-      }*/
-    }
+    guard let lat = locationManager.location?.coordinate.latitude else {return}
+    guard let lon = locationManager.location?.coordinate.longitude else {return}
+    
+    let userMarker = GMSMarker()
+    userMarker.position = CLLocationCoordinate2D(latitude: lat, longitude: lon)
+    userMarker.icon = UIImage(named: "Icon-50")
+    userMarker.userData = "user"
+    userMarker.map = self.mapView
+    
   }
-}
-
-extension MapViewController {
   
   func fetchPlacesFromMapView(near: CLLocationCoordinate2D) {
     mapView.clear()
@@ -100,53 +79,49 @@ extension MapViewController {
     googleData.fetchPlaces (lat: lat, lon: lon, radius: 5000, types: ["restaurant"]) { places in
       print(places.count)
       places.forEach { place in
-        let marker = PlaceMarker(place: place, availableTypes: ["restaurant"])
+        let marker = RestaurantMarker(place: place, availableTypes: ["restaurant"])
+        marker.userData = "restaurant"
+        self.addUserMarker()
         marker.map = self.mapView
       }
     }
   }
 }
 
+
 extension MapViewController: GMSMapViewDelegate {
-  
-  func mapView(_ mapView: GMSMapView, idleAt position: GMSCameraPosition) {
-    reverseGeocode(coordinate: position.target)
-  }
-  
-  func mapView(_ mapView: GMSMapView, willMove gesture: Bool) {
-    //addressLabel.lock()
     
-    if gesture {
-      //mapCenterPinImage.fadeIn(0.25)
-      mapView.selectedMarker = nil
-    }
-  }
-  
   func mapView(_ mapView: GMSMapView, markerInfoContents marker: GMSMarker) -> UIView? {
-    guard let placeMarker = marker as? PlaceMarker else {
-      return nil
+    
+    var finalView = UIView()
+    
+    if marker.userData as? String == "user" {
+      
+      guard let userView = UIView.viewFromNibName("UserMarkerWindow") as? UserMarkerWindow else {return nil}
+      
+      finalView = userView
     }
-    guard let restView = UIView.viewFromNibName("RestaurantMarkerWindow") as? RestaurantMarkerWindow else {
-      return nil
+    
+    if marker.userData as? String == "restaurant" {
+      
+      guard let restaurantgView = UIView.viewFromNibName("RestaurantMarkerWindow") as? RestaurantMarkerWindow else {return nil}
+      
+      finalView = restaurantgView
     }
     
     //restView.nameLabel.text = placeMarker.place.name
     //restView.addressLabel.text = placeMarker.place.address
-    
-    return restView
+    return finalView
   }
-  
+    
+
   func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
     //mapCenterPinImage.fadeOut(0.25)
     return false
   }
-  
-  func didTapMyLocationButton(for mapView: GMSMapView) -> Bool {
-    //mapCenterPinImage.fadeIn(0.25)
-    mapView.selectedMarker = nil
-    return false
-  }
+
 }
+
 
 extension MapViewController: CLLocationManagerDelegate {
   

@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import GoogleMaps
 
-class PlaceMarker: GMSMarker {
+class RestaurantMarker: GMSMarker {
   let place: GooglePlace
   
   init(place: GooglePlace, availableTypes: [String]) {
@@ -21,13 +21,14 @@ class PlaceMarker: GMSMarker {
     appearAnimation = .pop
     
     var foundType = "restaurant"
-    let possibleTypes = availableTypes.count > 0 ? availableTypes : ["bakery", "bar", "cafe", "grocery_or_supermarket", "restaurant"]
+    let possibleTypes = availableTypes.count > 0 ? availableTypes : ["restaurant"]
     for type in place.types {
       if possibleTypes.contains(type) {
         foundType = type
         break
       }
     }
-    icon = UIImage(named: foundType+"_pin")
+    icon = UIImage(named: foundType + "Icon-40")
   }
+  
 }

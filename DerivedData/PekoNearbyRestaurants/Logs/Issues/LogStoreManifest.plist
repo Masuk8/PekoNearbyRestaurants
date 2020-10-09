@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>E00685AD-6CC5-4379-BDEA-59ABAF409975</key>
+		<key>040C5AD6-5843-4CD3-AC0A-47E0214474EF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>E00685AD-6CC5-4379-BDEA-59ABAF409975.xcactivitylog</string>
+			<string>040C5AD6-5843-4CD3-AC0A-47E0214474EF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>Pods-PekoNearbyRestaurants-eanddzywsjaabnfafsfuhuuwrvpx</string>
 			<key>timeStartedRecording</key>
-			<real>623946267.91731906</real>
+			<real>623951093.61048698</real>
 			<key>timeStoppedRecording</key>
-			<real>623946268.17782903</real>
+			<real>623951093.61522996</real>
 			<key>title</key>
 			<string>Build target Pods-PekoNearbyRestaurants</string>
 			<key>uniqueIdentifier</key>
-			<string>E00685AD-6CC5-4379-BDEA-59ABAF409975</string>
+			<string>040C5AD6-5843-4CD3-AC0A-47E0214474EF</string>
 		</dict>
-		<key>E2EBA93F-9774-4A98-91AE-4FC5D869BCAC</key>
+		<key>4B15A5AD-0DC6-4366-AC2D-28B2C63B5A1A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,24 +43,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>E2EBA93F-9774-4A98-91AE-4FC5D869BCAC.xcactivitylog</string>
+			<string>4B15A5AD-0DC6-4366-AC2D-28B2C63B5A1A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>signature</key>
 			<string>PekoNearbyRestaurants-bvgetfzisxbmaqcmjhnbxksvcewt</string>
 			<key>timeStartedRecording</key>
-			<real>623949147.38296497</real>
+			<real>623960588.57392502</real>
 			<key>timeStoppedRecording</key>
-			<real>623949149.85642505</real>
+			<real>623960595.15132201</real>
 			<key>title</key>
 			<string>Build target PekoNearbyRestaurants</string>
 			<key>uniqueIdentifier</key>
-			<string>E2EBA93F-9774-4A98-91AE-4FC5D869BCAC</string>
+			<string>4B15A5AD-0DC6-4366-AC2D-28B2C63B5A1A</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
