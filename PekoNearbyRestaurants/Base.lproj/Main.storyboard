@@ -1,24 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="PekoNearbyRestaurants" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W7T-Hv-rNs" userLabel="Map" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAb-a5-kua" userLabel="Zoom Out">
+                                        <rect key="frame" x="30" y="758" width="40" height="45"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="aa9-xj-btO"/>
+                                            <constraint firstAttribute="height" constant="45" id="b8m-0C-1OS"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="bbF-yo-sPB"/>
+                                            <constraint firstAttribute="width" constant="40" id="to2-TC-fBe"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" image="minus.magnifyingglass" catalog="system"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6v-5w-ZTH" userLabel="Zoom in">
+                                        <rect key="frame" x="344" y="758" width="40" height="45"/>
+                                        <color key="backgroundColor" name="AccentColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="9Xg-GE-sH1"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="BUT-qX-R0j"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="MIS-jZ-rSs"/>
+                                            <constraint firstAttribute="height" constant="45" id="lZE-Sn-GxR"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" image="plus.magnifyingglass" catalog="system"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="TAb-a5-kua" firstAttribute="leading" secondItem="W7T-Hv-rNs" secondAttribute="leading" constant="30" id="7fH-T4-1m3"/>
+                                    <constraint firstAttribute="bottom" secondItem="TAb-a5-kua" secondAttribute="bottom" constant="15" id="TMk-Cg-Loj"/>
+                                    <constraint firstAttribute="bottom" secondItem="H6v-5w-ZTH" secondAttribute="bottom" constant="15" id="dGI-U4-B0W"/>
+                                    <constraint firstAttribute="trailing" secondItem="H6v-5w-ZTH" secondAttribute="trailing" constant="30" id="zxS-9K-eE3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W7T-Hv-rNs" secondAttribute="trailing" id="6qd-Sy-4CC"/>
+                            <constraint firstItem="W7T-Hv-rNs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="r1D-FN-uJB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="W7T-Hv-rNs" secondAttribute="bottom" id="sTq-Dz-inw"/>
+                            <constraint firstItem="W7T-Hv-rNs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ywl-yh-ume"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="MapView" destination="W7T-Hv-rNs" id="2yv-yI-sCi"/>
+                        <outlet property="mapView" destination="W7T-Hv-rNs" id="Xhf-Gc-LZB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="71.651785714285708"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="minus.magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="plus.magnifyingglass" catalog="system" width="128" height="115"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

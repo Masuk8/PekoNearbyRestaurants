@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>991D7008-0FA1-4414-9543-7B08A5181958</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>991D7008-0FA1-4414-9543-7B08A5181958.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PekoNearbyRestaurants project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PekoNearbyRestaurants</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PekoNearbyRestaurants</string>
+			<key>timeStartedRecording</key>
+			<real>623949147.28268504</real>
+			<key>timeStoppedRecording</key>
+			<real>623949149.87620699</real>
+			<key>title</key>
+			<string>Build PekoNearbyRestaurants</string>
+			<key>uniqueIdentifier</key>
+			<string>991D7008-0FA1-4414-9543-7B08A5181958</string>
+		</dict>
+		<key>D14AEA7D-34C8-463C-9510-D862DF56F5EA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D14AEA7D-34C8-463C-9510-D862DF56F5EA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PekoNearbyRestaurants project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PekoNearbyRestaurants</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PekoNearbyRestaurants</string>
+			<key>timeStartedRecording</key>
+			<real>623948944.19109905</real>
+			<key>timeStoppedRecording</key>
+			<real>623948945.887869</real>
+			<key>title</key>
+			<string>Build PekoNearbyRestaurants</string>
+			<key>uniqueIdentifier</key>
+			<string>D14AEA7D-34C8-463C-9510-D862DF56F5EA</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -5,6 +5,41 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>74352A4F-FAB9-4362-A529-A221F5A52F4B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>74352A4F-FAB9-4362-A529-A221F5A52F4B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PekoNearbyRestaurants project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PekoNearbyRestaurants</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PekoNearbyRestaurants</string>
+			<key>timeStartedRecording</key>
+			<real>623948675.94965005</real>
+			<key>timeStoppedRecording</key>
+			<real>623948694.34330904</real>
+			<key>title</key>
+			<string>Run PekoNearbyRestaurants</string>
+			<key>uniqueIdentifier</key>
+			<string>74352A4F-FAB9-4362-A529-A221F5A52F4B</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
