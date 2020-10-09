@@ -1230,6 +1230,40 @@
 			<key>uniqueIdentifier</key>
 			<string>ECCC990D-A6FB-461A-B3A2-FFC32C688CC9</string>
 		</dict>
+		<key>F02458C7-D4CB-45C9-87BE-ACE860374CB8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F02458C7-D4CB-45C9-87BE-ACE860374CB8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PekoNearbyRestaurants project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PekoNearbyRestaurants</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PekoNearbyRestaurants</string>
+			<key>timeStartedRecording</key>
+			<real>623960595.58582497</real>
+			<key>timeStoppedRecording</key>
+			<real>623960673.61700404</real>
+			<key>title</key>
+			<string>Run PekoNearbyRestaurants</string>
+			<key>uniqueIdentifier</key>
+			<string>F02458C7-D4CB-45C9-87BE-ACE860374CB8</string>
+		</dict>
 		<key>FA8BCF1D-483E-48F7-86F3-7A0A3C53ECF9</key>
 		<dict>
 			<key>className</key>

@@ -104,13 +104,14 @@ extension MapViewController: GMSMapViewDelegate {
     
     if marker.userData as? String == "restaurant" {
       
-      guard let restaurantgView = UIView.viewFromNibName("RestaurantMarkerWindow") as? RestaurantMarkerWindow else {return nil}
+      guard let restaurantView = UIView.viewFromNibName("RestaurantMarkerWindow") as? RestaurantMarkerWindow else {return nil}
       
-      finalView = restaurantgView
+      RestaurantMarkerWindow().restaurantName.text = RestaurantMarker
+      //restView.nameLabel.text = placeMarker.place.name
+      //restView.addressLabel.text = placeMarker.place.address
+      
+      finalView = restaurantView
     }
-    
-    //restView.nameLabel.text = placeMarker.place.name
-    //restView.addressLabel.text = placeMarker.place.address
     return finalView
   }
     
