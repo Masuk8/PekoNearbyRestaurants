@@ -5,7 +5,6 @@
 //  Created by Macbook on 08/10/2020.
 //
 
-import Foundation
 import UIKit
 import GoogleMaps
 
@@ -20,15 +19,7 @@ class RestaurantMarker: GMSMarker {
     groundAnchor = CGPoint(x: 0.5, y: 1)
     appearAnimation = .pop
     
-    var foundType = "restaurant"
-    let possibleTypes = availableTypes.count > 0 ? availableTypes : ["restaurant"]
-    for type in place.types {
-      if possibleTypes.contains(type) {
-        foundType = type
-        break
-      }
-    }
-    icon = UIImage(named: foundType + "Icon-40")
+    icon = UIImage(named:"Icon-40")
   }
-  
 }
+

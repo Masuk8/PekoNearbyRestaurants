@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0AD0A6C32E845B777017E6EB /* Pods_PekoNearbyRestaurants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3433ABAD98702FDCF24D33AB /* Pods_PekoNearbyRestaurants.framework */; };
+		FA2A7F1925319055002FFBB6 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A7F1825319055002FFBB6 /* GooglePlace.swift */; };
 		FA856800252F6574008B80CF /* UserMarkerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8567FF252F6574008B80CF /* UserMarkerWindow.xib */; };
 		FA856803252F65A5008B80CF /* UserMarkerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA856802252F65A5008B80CF /* UserMarkerWindow.swift */; };
 		FAA86C77252F87A400B31DFC /* GoogleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA86C76252F87A400B31DFC /* GoogleData.swift */; };
-		FAA86C7A252F87DD00B31DFC /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA86C79252F87DD00B31DFC /* GooglePlace.swift */; };
 		FAA86C7D252F894100B31DFC /* RestaurantMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA86C7C252F894100B31DFC /* RestaurantMarker.swift */; };
-		FAA86C80252F8A0200B31DFC /* UserMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA86C7F252F8A0200B31DFC /* UserMarker.swift */; };
 		FAA86C84252F8FFD00B31DFC /* RestaurantMarkerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA86C83252F8FFD00B31DFC /* RestaurantMarkerWindow.xib */; };
 		FAA86C87252F901E00B31DFC /* RestaurantMarkerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA86C86252F901E00B31DFC /* RestaurantMarkerWindow.swift */; };
 		FAA86C8A252F943800B31DFC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA86C89252F943800B31DFC /* Extensions.swift */; };
@@ -29,12 +28,11 @@
 		0BE01407054936AD076390A7 /* Pods-PekoNearbyRestaurants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PekoNearbyRestaurants.debug.xcconfig"; path = "Target Support Files/Pods-PekoNearbyRestaurants/Pods-PekoNearbyRestaurants.debug.xcconfig"; sourceTree = "<group>"; };
 		3433ABAD98702FDCF24D33AB /* Pods_PekoNearbyRestaurants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PekoNearbyRestaurants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		361BF2C1DFE93F9D43DE8CC8 /* Pods-PekoNearbyRestaurants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PekoNearbyRestaurants.release.xcconfig"; path = "Target Support Files/Pods-PekoNearbyRestaurants/Pods-PekoNearbyRestaurants.release.xcconfig"; sourceTree = "<group>"; };
+		FA2A7F1825319055002FFBB6 /* GooglePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
 		FA8567FF252F6574008B80CF /* UserMarkerWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserMarkerWindow.xib; sourceTree = "<group>"; };
 		FA856802252F65A5008B80CF /* UserMarkerWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMarkerWindow.swift; sourceTree = "<group>"; };
 		FAA86C76252F87A400B31DFC /* GoogleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleData.swift; sourceTree = "<group>"; };
-		FAA86C79252F87DD00B31DFC /* GooglePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
 		FAA86C7C252F894100B31DFC /* RestaurantMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMarker.swift; sourceTree = "<group>"; };
-		FAA86C7F252F8A0200B31DFC /* UserMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMarker.swift; sourceTree = "<group>"; };
 		FAA86C83252F8FFD00B31DFC /* RestaurantMarkerWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantMarkerWindow.xib; sourceTree = "<group>"; };
 		FAA86C86252F901E00B31DFC /* RestaurantMarkerWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMarkerWindow.swift; sourceTree = "<group>"; };
 		FAA86C89252F943800B31DFC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -118,9 +116,8 @@
 				FAC9CEEA252F619700D02EA9 /* LaunchScreen.storyboard */,
 				FAC9CEED252F619700D02EA9 /* Info.plist */,
 				FAA86C76252F87A400B31DFC /* GoogleData.swift */,
-				FAA86C79252F87DD00B31DFC /* GooglePlace.swift */,
+				FA2A7F1825319055002FFBB6 /* GooglePlace.swift */,
 				FAA86C7C252F894100B31DFC /* RestaurantMarker.swift */,
-				FAA86C7F252F8A0200B31DFC /* UserMarker.swift */,
 				FAA86C89252F943800B31DFC /* Extensions.swift */,
 			);
 			path = PekoNearbyRestaurants;
@@ -244,11 +241,10 @@
 			files = (
 				FAC9CEE4252F619400D02EA9 /* MapViewController.swift in Sources */,
 				FAA86C87252F901E00B31DFC /* RestaurantMarkerWindow.swift in Sources */,
+				FA2A7F1925319055002FFBB6 /* GooglePlace.swift in Sources */,
 				FAC9CEE0252F619400D02EA9 /* AppDelegate.swift in Sources */,
-				FAA86C7A252F87DD00B31DFC /* GooglePlace.swift in Sources */,
 				FAA86C77252F87A400B31DFC /* GoogleData.swift in Sources */,
 				FAA86C8A252F943800B31DFC /* Extensions.swift in Sources */,
-				FAA86C80252F8A0200B31DFC /* UserMarker.swift in Sources */,
 				FAC9CEE2252F619400D02EA9 /* SceneDelegate.swift in Sources */,
 				FAA86C7D252F894100B31DFC /* RestaurantMarker.swift in Sources */,
 				FA856803252F65A5008B80CF /* UserMarkerWindow.swift in Sources */,

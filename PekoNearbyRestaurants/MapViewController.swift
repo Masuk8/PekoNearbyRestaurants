@@ -11,15 +11,12 @@ class MapViewController: UIViewController {
     
   @IBOutlet weak var zoomOutButton: UIButton!
   @IBOutlet weak var zoomInButton: UIButton!
-  
-
 
   let googleData = GoogleData()
   var zoom: Float = 15
 
   @IBOutlet weak var mapView: GMSMapView!
   
-
   var locationManager = CLLocationManager()
   
   override func viewDidLoad() {
@@ -40,12 +37,10 @@ class MapViewController: UIViewController {
     
     mapView.delegate = self
 
-    
     guard let lat = locationManager.location?.coordinate.latitude else {return}
     guard let lon = locationManager.location?.coordinate.longitude else {return}
     let camera  = GMSCameraPosition.camera(withLatitude: lat, longitude: lon, zoom: 15)
     mapView.camera = camera
-    
   }
   
   @IBAction func zoomInActionButton(_ sender: Any) {
@@ -75,10 +70,11 @@ class MapViewController: UIViewController {
     
     guard let lat = locationManager.location?.coordinate.latitude else {return}
     guard let lon = locationManager.location?.coordinate.longitude else {return}
-    
-    googleData.fetchPlaces (lat: lat, lon: lon, radius: 5000, types: ["restaurant"]) { places in
-      print(places.count)
-      places.forEach { place in
+      
+    googleData.fetchPlaces(lat: lat, lon: lon, radius: 5000, types: ["restaurant"]) {  place in
+      
+      print(place.count)
+      place.forEach { place in
         let marker = RestaurantMarker(place: place, availableTypes: ["restaurant"])
         marker.userData = "restaurant"
         self.addUserMarker()
@@ -105,11 +101,7 @@ extension MapViewController: GMSMapViewDelegate {
     if marker.userData as? String == "restaurant" {
       
       guard let restaurantView = UIView.viewFromNibName("RestaurantMarkerWindow") as? RestaurantMarkerWindow else {return nil}
-      
-      RestaurantMarkerWindow().restaurantName.text = RestaurantMarker
-      //restView.nameLabel.text = placeMarker.place.name
-      //restView.addressLabel.text = placeMarker.place.address
-      
+            
       finalView = restaurantView
     }
     return finalView
@@ -117,12 +109,9 @@ extension MapViewController: GMSMapViewDelegate {
     
 
   func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
-    //mapCenterPinImage.fadeOut(0.25)
     return false
   }
-
 }
-
 
 extension MapViewController: CLLocationManagerDelegate {
   
@@ -135,7 +124,7 @@ extension MapViewController: CLLocationManagerDelegate {
   }
   
   func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-    
+    print("Location Manager failed with error: \(error)")
   }
   
 }

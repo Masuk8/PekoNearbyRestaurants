@@ -239,20 +239,20 @@ SWIFT_CLASS("_TtC21PekoNearbyRestaurants17MapViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class GMSMarker;
-@class UIView;
-
-@interface MapViewController (SWIFT_EXTENSION(PekoNearbyRestaurants)) <GMSMapViewDelegate>
-- (UIView * _Nullable)mapView:(GMSMapView * _Nonnull)mapView markerInfoContents:(GMSMarker * _Nonnull)marker SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)mapView:(GMSMapView * _Nonnull)mapView didTapMarker:(GMSMarker * _Nonnull)marker SWIFT_WARN_UNUSED_RESULT;
-@end
-
 @class CLLocationManager;
 @class CLLocation;
 
 @interface MapViewController (SWIFT_EXTENSION(PekoNearbyRestaurants)) <CLLocationManagerDelegate>
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+@end
+
+@class GMSMarker;
+@class UIView;
+
+@interface MapViewController (SWIFT_EXTENSION(PekoNearbyRestaurants)) <GMSMapViewDelegate>
+- (UIView * _Nullable)mapView:(GMSMapView * _Nonnull)mapView markerInfoContents:(GMSMarker * _Nonnull)marker SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)mapView:(GMSMapView * _Nonnull)mapView didTapMarker:(GMSMarker * _Nonnull)marker SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -287,13 +287,6 @@ SWIFT_CLASS("_TtC21PekoNearbyRestaurants13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
-SWIFT_CLASS("_TtC21PekoNearbyRestaurants10UserMarker")
-@interface UserMarker : GMSMarker
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 SWIFT_CLASS("_TtC21PekoNearbyRestaurants16UserMarkerWindow")
