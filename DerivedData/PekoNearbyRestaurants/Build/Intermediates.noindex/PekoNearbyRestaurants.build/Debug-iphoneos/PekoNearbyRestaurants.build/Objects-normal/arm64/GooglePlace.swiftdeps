@@ -196,6 +196,8 @@ depends-member:
 - !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
 - ["SY", "=="]
 - ["SY", "Default_RawValue"]
 - ["SY", "RawValue"]
@@ -254,6 +256,8 @@ depends-nominal:
 - !private "s30KeyedDecodingContainerProtocolP"
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectP"
 - "SY"
 - "21PekoNearbyRestaurants11GooglePlaceV8ResponseV"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"

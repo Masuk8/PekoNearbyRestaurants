@@ -165,6 +165,7 @@ depends-member:
 - !private ["So8NSObjectP", "dataTask"]
 - !private ["So8NSObjectP", "dataTaskWithRequest"]
 - !private ["So8NSObjectP", "dataTaskWithURL"]
+- !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "main"]
 - !private ["So8NSObjectP", "resume"]
 - !private ["So8NSObjectP", "setTarget"]
