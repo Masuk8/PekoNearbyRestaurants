@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>02A6F969-2112-40E3-8A9C-A7AE4A6A7CF6</key>
+		<key>C7402417-ACBC-4081-9596-ACB588E073D8</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>02A6F969-2112-40E3-8A9C-A7AE4A6A7CF6.xcactivitylog</string>
+			<string>C7402417-ACBC-4081-9596-ACB588E073D8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run PekoNearbyRestaurants</string>
 			<key>timeStartedRecording</key>
-			<real>624129361.44038904</real>
+			<real>624397346.23670495</real>
 			<key>timeStoppedRecording</key>
-			<real>624129426.77945197</real>
+			<real>624397410.65640104</real>
 			<key>title</key>
 			<string>Run PekoNearbyRestaurants</string>
 			<key>uniqueIdentifier</key>
-			<string>02A6F969-2112-40E3-8A9C-A7AE4A6A7CF6</string>
+			<string>C7402417-ACBC-4081-9596-ACB588E073D8</string>
 		</dict>
-		<key>B581F1DD-0C6F-47AF-A363-B8BEE3AF6F16</key>
+		<key>CAE024E4-7A96-4822-9A64-BDF63650E91B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B581F1DD-0C6F-47AF-A363-B8BEE3AF6F16.xcactivitylog</string>
+			<string>CAE024E4-7A96-4822-9A64-BDF63650E91B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +66,13 @@
 			<key>signature</key>
 			<string>Run PekoNearbyRestaurants</string>
 			<key>timeStartedRecording</key>
-			<real>624203563.228809</real>
+			<real>624397213.39906895</real>
 			<key>timeStoppedRecording</key>
-			<real>624203598.87354004</real>
+			<real>624397287.03910303</real>
 			<key>title</key>
 			<string>Run PekoNearbyRestaurants</string>
 			<key>uniqueIdentifier</key>
-			<string>B581F1DD-0C6F-47AF-A363-B8BEE3AF6F16</string>
+			<string>CAE024E4-7A96-4822-9A64-BDF63650E91B</string>
 		</dict>
 	</dict>
 </dict>
