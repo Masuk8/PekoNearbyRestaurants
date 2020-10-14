@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>59470674-CD8C-4129-93D7-E23D1E890428</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>59470674-CD8C-4129-93D7-E23D1E890428.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PekoNearbyRestaurants project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PekoNearbyRestaurants</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run PekoNearbyRestaurants</string>
+			<key>timeStartedRecording</key>
+			<real>624410855.49607396</real>
+			<key>timeStoppedRecording</key>
+			<real>624410968.00233698</real>
+			<key>title</key>
+			<string>Run PekoNearbyRestaurants</string>
+			<key>uniqueIdentifier</key>
+			<string>59470674-CD8C-4129-93D7-E23D1E890428</string>
+		</dict>
 		<key>C7402417-ACBC-4081-9596-ACB588E073D8</key>
 		<dict>
 			<key>className</key>
@@ -40,7 +74,7 @@
 			<key>uniqueIdentifier</key>
 			<string>C7402417-ACBC-4081-9596-ACB588E073D8</string>
 		</dict>
-		<key>CAE024E4-7A96-4822-9A64-BDF63650E91B</key>
+		<key>ECCBE274-503F-4585-B46A-B69B8E3C2885</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CAE024E4-7A96-4822-9A64-BDF63650E91B.xcactivitylog</string>
+			<string>ECCBE274-503F-4585-B46A-B69B8E3C2885.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +100,13 @@
 			<key>signature</key>
 			<string>Run PekoNearbyRestaurants</string>
 			<key>timeStartedRecording</key>
-			<real>624397213.39906895</real>
+			<real>624410668.83614802</real>
 			<key>timeStoppedRecording</key>
-			<real>624397287.03910303</real>
+			<real>624410721.96337497</real>
 			<key>title</key>
 			<string>Run PekoNearbyRestaurants</string>
 			<key>uniqueIdentifier</key>
-			<string>CAE024E4-7A96-4822-9A64-BDF63650E91B</string>
+			<string>ECCBE274-503F-4585-B46A-B69B8E3C2885</string>
 		</dict>
 	</dict>
 </dict>

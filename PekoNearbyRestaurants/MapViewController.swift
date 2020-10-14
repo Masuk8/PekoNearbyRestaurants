@@ -101,7 +101,10 @@ extension MapViewController: GMSMapViewDelegate {
     if marker.userData as? String == "restaurant" {
       
       guard let restaurantView = UIView.viewFromNibName("RestaurantMarkerWindow") as? RestaurantMarkerWindow else {return nil}
-            
+      
+      guard let restaurantMarker = marker as? RestaurantMarker else { return nil }
+      restaurantView.restaurantName?.text = restaurantMarker.place.name
+      
       finalView = restaurantView
     }
     return finalView

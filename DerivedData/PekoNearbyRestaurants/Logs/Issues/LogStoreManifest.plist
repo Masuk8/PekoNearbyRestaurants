@@ -34,7 +34,7 @@
 			<key>uniqueIdentifier</key>
 			<string>27E6F735-D357-47C0-A984-2A57DDC9A0E8</string>
 		</dict>
-		<key>586DD2C2-2D1B-44FD-975C-E44CC4BF23C1</key>
+		<key>59DFBF54-714A-491F-B372-E497F03C8607</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>586DD2C2-2D1B-44FD-975C-E44CC4BF23C1.xcactivitylog</string>
+			<string>59DFBF54-714A-491F-B372-E497F03C8607.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>PekoNearbyRestaurants-bvgetfzisxbmaqcmjhnbxksvcewt</string>
 			<key>timeStartedRecording</key>
-			<real>624397340.17530894</real>
+			<real>624411029.45794404</real>
 			<key>timeStoppedRecording</key>
-			<real>624397345.67277205</real>
+			<real>624411031.65551198</real>
 			<key>title</key>
 			<string>Build target PekoNearbyRestaurants</string>
 			<key>uniqueIdentifier</key>
-			<string>586DD2C2-2D1B-44FD-975C-E44CC4BF23C1</string>
+			<string>59DFBF54-714A-491F-B372-E497F03C8607</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
